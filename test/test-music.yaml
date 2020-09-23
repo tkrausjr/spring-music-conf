@@ -28,7 +28,7 @@ spec:
           value: org.hibernate.dialect.PostgreSQLDialect
         - name: SPRING_JPA_HIBERNATE_DDL_AUTO
           value: update
-        image: mytkrausjr/spring-music:3499432e4bce3ab4f074a297ff72e8dbc942a719
+        image: mytkrausjr/spring-music:459282271d3e22dd71331b821c5da709bce0b83e
         imagePullPolicy: IfNotPresent
         name: springmusic
         ports:
