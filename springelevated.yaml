@@ -18,7 +18,7 @@ spec:
         run: springmusic
     spec:
       containers:
-      - image: eoghank/springmusic:postgres1107
+      - image: mytkrausjr/spring-music:e84362fa604baf26fc2d50bb2e13218fe75f37b1
         name: springmusic
         #imagePullPolicy: Always
         imagePullPolicy: Always
